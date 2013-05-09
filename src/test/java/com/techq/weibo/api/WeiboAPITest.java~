@@ -1,0 +1,46 @@
+package com.techq.weibo.api;
+
+import org.apache.http.client.HttpClient;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.log4j.Logger;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.techq.test.BaseTestCase;
+import com.techq.weibo.bo.FollowersFinder;
+
+
+public class WeiboAPITest extends BaseTestCase{
+	private static final Logger LOG = Logger.getLogger(WeiboAPITest.class);
+	
+	@Autowired
+	WeiboAPI weiboAPI;
+	
+	@Autowired
+	FollowersFinder finder;
+	
+	@Test
+	@Ignore
+	public void testDeleteFollower() throws Exception {
+		HttpClient client = new DefaultHttpClient();
+		if (weiboAPI.logon(client, "luanlexi@163.com", "test")) {
+			LOG.info("logon successfully!!!");
+			weiboAPI.removeFan(client, "2085723430", "2606530785");
+		} else {
+			LOG.info("logon failed!!!");
+		}
+	}
+	
+	@Test
+	public void testFindFollowers() throws Exception {
+		HttpClient client = new DefaultHttpClient();
+		if (weiboAPI.logon(client, "luanlexi@163.com", "chen1234")) {
+			LOG.info("logon successfully!!!");
+			System.out.println(finder.getLastPageFollowers(client, "2085723430"));
+		}else {
+			LOG.info("logon failed!!!");
+		}
+	}
+
+}

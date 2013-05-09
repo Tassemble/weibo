@@ -1,0 +1,33 @@
+http://service.t.sina.com.cn/share/aj_share.php
+
+Accept	text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Charset	GB2312,utf-8;q=0.7,*;q=0.7
+Accept-Encoding	gzip, deflate
+Accept-Language	zh-cn,zh;q=0.5
+Cache-Control	no-cache
+Connection	keep-alive
+Content-Length	1221
+Content-Type	application/x-www-form-urlencoded; charset=UTF-8
+Cookie	U_TRS1=00000084.39f67de.4f351303.36157040; SINAGLOBAL=7271c583.cfa72c0.4f38f0ae.3f25389e; un=tiankongchen@126.com; U_TRS2=00000084.b02ce76.4f54af8b.efd0e889; USRHAWB=usrmdins21362; Apache=7271c583.7fc47250.4f54af86.8965029d; SUS=SID-2474847780-1330950071-GZ-p3i7f-92c5b782575b196476a796674879d997; SUE=es%3D2028b362a69ef274eb6e5e22272e725d%26ev%3Dv1%26es2%3D4735ab51b3837e244db3178ddcdf9361%26rs0%3DV8jcP923UBtnY5pbX71hC23VYpJiq4o6UfljvVCQqxV1XcwTUCKDo2JIc3fQsHsTZV3Yu18xbHiRHzBKbDmzjs7x0A45jQ3GfBxzauXHocmISoi0GLKBzPTnE8tzSEGy%252F57%252B3hxYQIIJDF19mFpgprzrqfY%252BlK9GTygjzgYQe04%253D%26rv%3D0; SUP=cv%3D1%26bt%3D1330950071%26et%3D1331036471%26d%3D40c3%26i%3Dd997%26us%3D1%26vf%3D0%26vt%3D0%26ac%3D0%26lt%3D1%26uid%3D2474847780%26user%3Dtiankongchen%2540126.com%26ag%3D4%26name%3Dtiankongchen%2540126.com%26nick%3D%25E5%25B0%258FYY%25E5%2593%2588%26sex%3D2%26ps%3D0%26email%3D%26dob%3D%26ln%3Dtiankongchen%2540126.com%26os%3D%26fmp%3D%26lcp%3D2012-02-12%252023%253A22%253A05; ALF=1331554871; SUR=uid%3D2474847780%26user%3Dtiankongchen%2540126.com%26nick%3D%25E5%25B0%258FYY%25E5%2593%2588%26email%3D%26dob%3D%26ag%3D4%26sex%3D2%26ssl%3D0
+Host	service.t.sina.com.cn
+Pragma	no-cache
+Referer	http://service.t.sina.com.cn/share/share.php?title=%e5%bc%a0%e5%b0%8f%e5%a8%b4%e8%af%b4%ef%bc%9a%e5%bc%80%e5%a7%8b%e7%9a%84%e5%bc%80%e5%a7%8b%e6%80%bb%e6%98%af%e7%94%9c%e8%9c%9c%e7%9a%84+%e5%90%8e%e6%9d%a5%e5%b0%b1%e6%9c%89%e4%ba%86%e5%8e%8c%e5%80%a6%e3%80%81%e4%b9%a0%e6%83%af%e3%80%81%e8%83%8c%e5%bc%83%e3%80%81%e5%af%82%e5%af%9e%e3%80%81%e7%bb%9d%e6%9c%9b%e5%92%8c%e5%86%b7%e7%ac%91+%e6%9b%be%e7%bb%8f%e6%b8%b4%e6%9c%9b%e4%b8%8e%e4%b8%80%e4%b8%aa%e4%ba%ba%e9%95%bf%e7%9b%b8%e5%8e%ae%e5%ae%88%ef%bc%8c%e5%90%8e%e6%9d%a5%ef%bc%8c%e5%a4%9a%e4%b9%88%e5%ba%86%e5%b9%b8%e8%87%aa%e5%b7%b1%e7%a6%bb%e5%bc%80%e4%ba%86+%e6%9b%be%e5%87%a0%e4%bd%95%e6%97%b6%ef%bc%8c%e5%9c%a8%e4%b8%80%e6%ae%b5%e7%9f%ad%e6%9a%82%e7%9a%84%e6%97%b6%e5%85%89%e9%87%8c%ef%bc%8c+%e6%88%91%e4%bb%ac%e4%bb%a5%e4%b8%ba%e8%87%aa%e5%b7%b1%e6%b7%b1%e6%b7%b1%e7%9a%84%e7%88%b1%e7%9d%80%e7%9a%84%e4%b8%80%e4%b8%aa%e4%ba%ba%e3%80%82+%e5%90%8e%e6%9d%a5%ef%bc%8c%e6%88%91%e4%bb%ac%e6%89%8d%e7%9f%a5%e9%81%93+%e9%82%a3%e4%b8%8d%e6%98%af%e7%88%b1%ef%bc%8c%e9%82%a3%e5%8f%aa%e6%98%af%e5%af%b9%e8%87%aa%e5%b7%b1%e8%af%b4%e8%b0%8e%e3%80%82&url=&source=bookmark&appkey=2849184197&pic=http%3a%2f%2fww3.sinaimg.cn%2fbmiddle%2f97222e6djw1dq60wsxiiyj.jpg&ralateUid=&retcode=0
+User-Agent	Mozilla/5.0 (Windows NT 6.1; rv:8.0) Gecko/20100101 Firefox/8.0
+X-Requested-With	XMLHttpRequest
+
+appkey	2849184197
+content	张小娴说：开始的开始总是甜蜜的 后来就有了厌倦、习惯、背弃、寂寞、绝望和冷笑 曾经渴望与一个人长相厮守，后来，多么庆幸自己离开了 曾几何时，在一段短暂的时光里， 我们以为自己深深的爱着的一个人。 后来，我们才知道 那不是爱，那只是对自己说谎。
+from	share
+refer	
+share_pic	http://ww3.sinaimg.cn/bmiddle/97222e6djw1dq60wsxiiyj.jpg
+source	bookmark
+sourceUrl	bookmark
+styleid	1
+url_type
+
+
+example:
+http://v.t.sina.com.cn/share/share.php?title=%e5%bc%a0%e5%b0%8f%e5%a8%b4%e8%af%b4%ef%bc%9a%e5%bc%80%e5%a7%8b%e7%9a%84%e5%bc%80%e5%a7%8b%e6%80%bb%e6%98%af%e7%94%9c%e8%9c%9c%e7%9a%84+%e5%90%8e%e6%9d%a5%e5%b0%b1%e6%9c%89%e4%ba%86%e5%8e%8c%e5%80%a6%e3%80%81%e4%b9%a0%e6%83%af%e3%80%81%e8%83%8c%e5%bc%83%e3%80%81%e5%af%82%e5%af%9e%e3%80%81%e7%bb%9d%e6%9c%9b%e5%92%8c%e5%86%b7%e7%ac%91+%e6%9b%be%e7%bb%8f%e6%b8%b4%e6%9c%9b%e4%b8%8e%e4%b8%80%e4%b8%aa%e4%ba%ba%e9%95%bf%e7%9b%b8%e5%8e%ae%e5%ae%88%ef%bc%8c%e5%90%8e%e6%9d%a5%ef%bc%8c%e5%a4%9a%e4%b9%88%e5%ba%86%e5%b9%b8%e8%87%aa%e5%b7%b1%e7%a6%bb%e5%bc%80%e4%ba%86+%e6%9b%be%e5%87%a0%e4%bd%95%e6%97%b6%ef%bc%8c%e5%9c%a8%e4%b8%80%e6%ae%b5%e7%9f%ad%e6%9a%82%e7%9a%84%e6%97%b6%e5%85%89%e9%87%8c%ef%bc%8c+%e6%88%91%e4%bb%ac%e4%bb%a5%e4%b8%ba%e8%87%aa%e5%b7%b1%e6%b7%b1%e6%b7%b1%e7%9a%84%e7%88%b1%e7%9d%80%e7%9a%84%e4%b8%80%e4%b8%aa%e4%ba%ba%e3%80%82+%e5%90%8e%e6%9d%a5%ef%bc%8c%e6%88%91%e4%bb%ac%e6%89%8d%e7%9f%a5%e9%81%93+%e9%82%a3%e4%b8%8d%e6%98%af%e7%88%b1%ef%bc%8c%e9%82%a3%e5%8f%aa%e6%98%af%e5%af%b9%e8%87%aa%e5%b7%b1%e8%af%b4%e8%b0%8e%e3%80%82&url=&source=bookmark&appkey=2849184197&pic=http%3a%2f%2fww3.sinaimg.cn%2fbmiddle%2f97222e6djw1dq60wsxiiyj.jpg&ralateUid=
+
+
+

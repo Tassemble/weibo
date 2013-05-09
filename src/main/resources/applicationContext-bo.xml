@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd	
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-2.5.xsd"
+	default-autowire="byName" default-lazy-init="true">
+
+	<bean id="springMVCPropertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>config.property</value>
+			</list>
+		</property>
+		<property name="ignoreUnresolvablePlaceholders" value="true" />
+	</bean>
+
+
+	<bean id="httpParams" class="org.apache.http.params.BasicHttpParams"></bean>
+	<bean id="registery" class="org.apache.http.conn.scheme.SchemeRegistry">
+	</bean>
+	<bean id="httpConnScheme" class="org.apache.http.conn.scheme.Scheme">
+		<constructor-arg index="0" value="http" />
+		<constructor-arg index="1" ref="socketFactory" />
+		<constructor-arg index="2" value="80" />
+	</bean>
+	<bean
+		class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+		<property name="targetObject">
+			<ref local="registery" />
+		</property>
+		<property name="targetMethod">
+			<value>register</value>
+		</property>
+		<property name="arguments">
+			<list>
+				<ref bean="httpConnScheme" />
+			</list>
+		</property>
+	</bean>
+	<bean id="httpConnManager"
+		class="org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager">
+		<constructor-arg index="0" ref="httpParams" />
+		<constructor-arg index="1" ref="registery" />
+	</bean>
+
+	<bean id="httpClient" class="org.apache.http.impl.client.DefaultHttpClient">
+		<constructor-arg index="0" ref="httpConnManager" />
+		<constructor-arg index="1" ref="httpParams" />
+	</bean>
+
+
+	<bean id="socketFactory" class="org.apache.http.conn.scheme.PlainSocketFactory"
+		factory-method="getSocketFactory"></bean>
+
+
+	<context:annotation-config />
+
+	<bean id="weiboConfig" class="com.techq.weibo.domain.WeiboConfig">
+		<property name="followFanConfig">
+			<value>${FollowFans}</value>
+		</property>
+
+		<property name="groupConfig">
+			<value>${SendToGroup}</value>
+		</property>
+
+		<property name="checkCodeSwitchOpen">
+			<value>${CheckCode}</value>
+		</property>
+	</bean>
+
+	<bean id="weiboAPI" class="com.techq.weibo.api.imp.WeiboAPIImpl"></bean>
+
+	<bean id="followersFinder" class="com.techq.weibo.bo.FollowersFinder"></bean>
+
+	<bean id="weiboRobot" class="com.techq.weibo.WeiboRobot"></bean>
+
+</beans>
