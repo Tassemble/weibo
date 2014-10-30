@@ -19,7 +19,7 @@ public class PPTest {
 	@Ignore
 	@Test
 	public void test() throws IOException {
-		PPCrawlerWorker crawler = new PPCrawlerWorker("luanlexi@163.com", "henjiandan", "2085723430", "-1");
+		PPCrawlerWorker crawler = new PPCrawlerWorker("hisjhdf@12.com", "henjiandan", "2085723430", "-1");
 		//crawler.login();
 		// crawler.testIT("http://weibo.pp.cc/time/");
 		//crawler.testIT("http://weibo.pp.cc/time/index.php?mod=content&action=show&account=2085723430&random=994&tid=5&page=2&keyword=");

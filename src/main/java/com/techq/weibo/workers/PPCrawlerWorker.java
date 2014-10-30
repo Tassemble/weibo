@@ -276,7 +276,7 @@ public class PPCrawlerWorker extends Thread {
 ////		System.out.println(uniString1);
 ////		String re  = convert(uniString);
 ////		System.out.println(re);
-		PPCrawlerWorker worker = new PPCrawlerWorker("luanlexi@163.com", "henjiandan","2085723430", "8");
+		PPCrawlerWorker worker = new PPCrawlerWorker("hisjhdf@12.com", "henjiandan","2085723430", "8");
 		System.out.println(worker.crawlSentences());
 //		System.out.println("\u539f\u521b\u4e8c\u7ef4\u52a8\u753b\u77ed\u7247\u3010\u671d\u671d\u5915\u5915\u3011");
 //		parse("<textarea class=\\\"b_nrk_n>abc<\\/textarea>sdhfidsfjosj< http:\\/\\/conent\\/201212\\/15.jpg_djif");

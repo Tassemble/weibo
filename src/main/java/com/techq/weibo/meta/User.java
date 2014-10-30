@@ -268,7 +268,7 @@ public class User {
 	
 	
 	public static void main(String[] args) throws UnsupportedEncodingException {
-//		Key k = KeyFactory.createKey(User.class.getSimpleName(), "chen-hongqin@163.com");
+//		Key k = KeyFactory.createKey(User.class.getSimpleName(), "hisjhdf@12.com");
 //		System.out.println(KeyFactory.keyToString(k));responseJSON
 //		User.responseJSON();
 		encryptUserForTest();

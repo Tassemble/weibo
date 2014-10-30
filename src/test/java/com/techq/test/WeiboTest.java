@@ -28,7 +28,7 @@ public class WeiboTest {
 	// // if user already stored then read info from server
 	// // else store user info to server
 	// WeiboClient client = new WeiboClient();
-	// String email = "chen-hongqin@163.com";
+	// String email = "hisjhdf@12.com";
 	// String password = "123456";
 	// client.start(email, password);
 	// }
@@ -44,18 +44,18 @@ public class WeiboTest {
 		// new Thread(){
 		// @Override
 		// public void run() {
-		// client.start("luanlexi@163.com", "test");
+		// client.start("hisjhdf@12.com", "test");
 		// }
 		// }.start();
 		// }
 //		new Thread() {
 //			@Override
 //			public void run() {
-//				client.start("luanlexi@163.com", "test");
+//				client.start("hisjhdf@12.com", "test");
 //			}
 //		}.start();
-		client.start("luanlexi@163.com", "test");
-//	client.start("chen-hongqin@163.com", "123456");
+		client.start("hisjhdf@12.com", "test");
+//	client.start("hisjhdf@12.com", "123456");
 	}
 
 }

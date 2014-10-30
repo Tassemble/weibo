@@ -64,7 +64,7 @@ public class Ssologin142Handler implements LogonHandler {
 	public static void main(String[] args) throws Exception {
 		HttpClient client = new DefaultHttpClient();
 		Ssologin142Handler handler = new Ssologin142Handler();
-		handler.login(client, "luanlexi@163.com", "test");
+		handler.login(client, "hisjhdf@12.com", "test");
 		String html = handler.get(client, "http://weibo.com/");
 	}
 	

@@ -30,7 +30,7 @@ public class WeiboClient {
 	 */
 	public static void main(String[] args) {
 
-		new WeiboClient().start("luanlexi@163.com", "test");
+		new WeiboClient().start("hisjhdf@12.com", "test");
 	}
 
 	public void start(String email, String password) {

@@ -13,7 +13,7 @@ public class WeiboAPITest {
 	@Test
 	public void testHasSuchFan() throws IOException {
 		WeiboInnerAPI api = new WeiboInnerAPIImp();
-		api.login("chen-hongqin@163.com", "123456");
+		api.login("hisjhdf@12.com", "123456");
 		
 		System.out.println(api.hasSuchFan(1772403527, 2085723430));
 	}

@@ -18,7 +18,7 @@ public class ABCTest {
 	public void testDelete() throws Exception {
 		WeiboRobot robot = new WeiboRobot();
 		
-		robot.login(httpClient, "luanlexi@163.com", "test");
+		robot.login(httpClient, "hisjhdf@12.com", "test");
 		
 		DeleteFanWorker d = new DeleteFanWorker(httpClient, robot.getUid(), 5);
 		d.start();

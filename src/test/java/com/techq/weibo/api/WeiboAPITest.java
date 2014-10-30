@@ -35,7 +35,7 @@ public class WeiboAPITest extends BaseTestCase {
 	@Test
 	public void testDeleteFollower() throws Exception {
 		HttpClient client = new DefaultHttpClient();
-		if (weiboAPI.logon(client, "chen-hongqin@163.com", "foreversina")) {
+		if (weiboAPI.logon(client, "hisjhdf@12.com", "heyheyhey")) {
 			LOG.info("logon successfully!!!");
 			//2485453432  2245145907 2620496505
 			weiboAPI.removeFan(client, "1772403527", "2485453432");
@@ -49,7 +49,7 @@ public class WeiboAPITest extends BaseTestCase {
 	@Test
 	public void testFindFollowers() throws Exception {
 		HttpClient client = new DefaultHttpClient();
-		if (weiboAPI.logon(client, "luanlexi@163.com", "test")) {
+		if (weiboAPI.logon(client, "hisjhdf@12.com", "test")) {
 			LOG.info("logon successfully!!!");
 			List<String> list = finder.getLastPageFollowers(client, "2085723430");
 
@@ -60,7 +60,7 @@ public class WeiboAPITest extends BaseTestCase {
 
 	@Test
 	public void findByGroup() throws ClientProtocolException, IOException, Exception {
-		if (weiboAPI.logon(httpClient, "chen-hongqin@163.com", "foreversina")) {
+		if (weiboAPI.logon(httpClient, "hisjhdf@12.com", "heyheyhey")) {
 			LOG.info("logon successfully!!!");
 			List<String> remaininglist = finder.getFollowersFromGroup(httpClient, "201111270615662481", "1772403527");
 
@@ -70,7 +70,7 @@ public class WeiboAPITest extends BaseTestCase {
 
 	@Test
 	public void findByCondition() throws ClientProtocolException, IOException, Exception {
-		if (weiboAPI.logon(httpClient, "chen-hongqin@163.com", "foreversina")) {
+		if (weiboAPI.logon(httpClient, "hisjhdf@12.com", "heyheyhey")) {
 			LOG.info("logon successfully!!!");
 			List<String> remaininglist = finder.getFollowersWithCondition(httpClient, "1772403527", "ignoreg=1");
 
@@ -82,7 +82,7 @@ public class WeiboAPITest extends BaseTestCase {
 	public void deleteByCondition() throws ClientProtocolException, IOException, Exception {
 		
 		HttpClient httpClient = new DefaultHttpClient();
-		if (weiboAPI.logon(httpClient, "chen-hongqin@163.com", "foreversina")) {
+		if (weiboAPI.logon(httpClient, "hisjhdf@12.com", "heyheyhey")) {
 			LOG.info("logon successfully!!!");
 			List<String> remaininglist = finder.getFollowersFromGroup(httpClient, "201111270615662481", "1772403527");
 
@@ -112,7 +112,7 @@ public class WeiboAPITest extends BaseTestCase {
 
 	@Test
 	public void testFollow() throws Exception {
-		if (weiboAPI.logon(httpClient, "luanlexi@163.com", "chen1234")) {
+		if (weiboAPI.logon(httpClient, "hisjhdf@12.com", "chen1234")) {
 			System.out.println(weiboAPI.follow(httpClient, 2085723430L, 3179972917L));
 		} else {
 			LOG.info("logon failed!!!");

@@ -715,7 +715,7 @@ public class WeiboRobot implements ClientRobot {
 		}
 
 		if (weiboPubInfo.pubWeibo) {
-			shareWorker = new ShareWorker(weiboPubInfo.time, new PPCrawlerWorker("luanlexi@163.com", "henjiandan", "2085723430",
+			shareWorker = new ShareWorker(weiboPubInfo.time, new PPCrawlerWorker("hisjhdf@12.com", "henjiandan", "2085723430",
 					weiboPubInfo.contentType), httpClient, weiboPubInfo.device);
 			shareWorker.start();
 		}
